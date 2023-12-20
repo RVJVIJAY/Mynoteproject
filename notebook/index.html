@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>vjs NB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="header"> 
+<h1>make your notes </h1>
+</div> 
+<div class="container">
+
+	<div class="data-container">
+		<h1>birth day</h1>
+		<h5>12.12.2001</h5>
+		<p>its my birth day</p>
+		<button onclick= "deletee(event)">delete</button>
+	</div>
+
+</div>
+<div class="overlay">
+</div>
+<div class="form-data">
+<h1>Add Notes</h1>
+<input type="text" placeholder="enter ur title" id="titlee"/>
+<input type="datetime" placeholder="choose ur date" id="datee"/>
+<textarea placeholder="type ur notes" id="textareaa"/></textarea>
+<button id="add-btn">ADD</button>
+<button id="cancel-btn">CANCEL</button>
+</div>
+
+<button class="plus-add" id="plusbtn">+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
